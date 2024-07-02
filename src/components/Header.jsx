@@ -14,7 +14,7 @@ export default function Header() {
             <p>
               We are a mobile-first digital product studio turning ideas into
               extraordinary experiences.
-            </p>
+            </p> 
           </div>
           <video className="bg-video" src={bg} autoPlay muted loop></video>
           <img className="bg-post" src={bgPost} alt="bg-post" />
