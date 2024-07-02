@@ -1,7 +1,7 @@
 import React from "react";
 import "./Article.css";
-import dashboard from '../Assets/dashboard.jpg';
-import arrow from '../Assets/right-arrow.png';
+import dashboard from "../Assets/dashboard.jpg";
+import arrow from "../Assets/right-arrow.png";
 
 function Article() {
   return (
@@ -22,12 +22,12 @@ function Article() {
             the best solution.
           </p>
           <div className="btn-container">
-                <img src={arrow} alt="right-arrow" />
-                Learn more About me...
+            <img src={arrow} alt="right-arrow" />
+            Learn more About me...
           </div>
         </div>
         <div className="right-content">
-            <img className="right-img" src={dashboard} alt="" />
+          <img className="right-img" src={dashboard} alt="" />
         </div>
       </div>
     </div>
@@ -35,3 +35,9 @@ function Article() {
 }
 
 export default Article;
+
+// ToDo: 1.Create a Floating Btn - For AI chatbot
+// ToDo: 2.Create a Creative Footer
+// ToDo: 3.make it more responsive for phn screen size
+// ToDo: 4.change logo to more appropriate logo
+// ToDo: 5.Enable Dark Mode

@@ -12,7 +12,7 @@ function Main() {
           A mobile product to curb distracted driving
         </p>
       </div>
-      <hr className="divider" />
+      <hr className="divider first-div" />
       <div className="posts">
         <div className="post-1">
           <img className="post-img" src={post1} alt="post-1" />
