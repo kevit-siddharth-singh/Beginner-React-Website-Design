@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.customer-reviews {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.cust-title {
+  display: flex;
+  font-weight: normal;
+
+  width: 55%;
+  justify-content: start;
+}
+.title-text {
+  width: 55%;
+
+  line-height: 3rem;
+  font-size: 2.5rem;
+  text-wrap: wrap;
+  color: #757373;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.title-text::first-line {
+  font-family: Inter;
+  font-weight: bold;
+  color: black;
+}
+.cust-btn {
+  width: 55%;
+}
+
+.cust-btn button {
+  display: flex;
+  justify-content: center;
+  gap: 1.1rem;
+  align-items: center;
+  background-color: #bcbac7;
+  border: none;
+  padding: 0.4rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1.4rem;
+}
+.cust-btn button img {
+  width: 30px;
+}
+.cust-btn button:hover{
+    background-color: #9e9da3;
+
+
+}
+.cust-card {
+  display: flex;
+}
