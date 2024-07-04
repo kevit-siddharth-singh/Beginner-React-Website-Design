@@ -1,7 +1,7 @@
 .floating-btn {
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
+  right: 3rem;
   background-color: #ff0eb4;
   width: 3.5rem;
   height: 3.5rem;
@@ -10,6 +10,7 @@
   justify-content: center;
   border-radius: 50%;
   transition: 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .floating-btn svg {
