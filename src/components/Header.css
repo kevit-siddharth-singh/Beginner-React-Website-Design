@@ -54,6 +54,7 @@
   display: flex;
   gap: 2.5rem;
   align-items: center;
+  
   font-weight: bold;
 }
 .links li {
@@ -81,6 +82,8 @@
   letter-spacing: 0.4rem;
 }
 
+
+
 .data p{
     letter-spacing: 3px;
     padding-top: 1.8rem;
@@ -97,5 +100,16 @@
     position: absolute;
     top: 85%;
     box-shadow: 0px 0px 20px black;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.4s ease-in-out;
 }
 
+.bg-post:hover{
+  
+ transform: scale(0.9);
+ -webkit-box-shadow:0px 0px 257px 21px rgba(46,255,77,0.6);
+-moz-box-shadow: 0px 0px 257px 21px rgba(46,255,77,0.6);
+box-shadow: 0px 0px 257px 21px rgba(46,255,77,0.6);
+
+}

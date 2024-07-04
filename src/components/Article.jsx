@@ -36,8 +36,3 @@ function Article() {
 
 export default Article;
 
-// ToDo: 1.Create a Floating Btn - For AI chatbot
-// ToDo: 2.Create a Creative Footer
-// ToDo: 3.make it more responsive for phn screen size
-// ToDo: 4.change logo to more appropriate logo
-// ToDo: 5.Enable Dark Mode

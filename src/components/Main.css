@@ -53,6 +53,11 @@
   gap: 2rem;
 }
 
+.post-1 img , .post-2 img{
+  border-radius: 10px;
+
+}
+
 .post-img {
   width: 100%;
   cursor: pointer;
