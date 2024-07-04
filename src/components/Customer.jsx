@@ -1,6 +1,10 @@
 import React from "react";
 import "./Customer.css";
 import arrow from "../Assets/right-arrow.png";
+import aehertz from "../Assets/aehertz-bw.jpeg";
+import siddharth from "../Assets/siddharth-bw.jpeg";
+
+
 
 function Customer() {
   return (
@@ -90,13 +94,13 @@ function Customer() {
           <div className="cust-data">
             <div className="cust-img-wrapper">
               <img
-                src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/6614d263ee7cfefd56f2a4e7_Ioana%20Vasicuta%20Conde%20Nast.png"
+                src={siddharth}
                 alt="cust1"
               />
             </div>
             <div className="cust-name">
-              <p className="firstname">Siddharth G</p>
-              <p>Singh</p>
+              <p className="firstname">Siddharth</p>
+              <p>Transient X</p>
             </div>
           </div>
         </div>
@@ -131,7 +135,7 @@ function Customer() {
           <div className="cust-data">
             <div className="cust-img-wrapper">
               <img
-                src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/6614d263ee7cfefd56f2a4e7_Ioana%20Vasicuta%20Conde%20Nast.png"
+                src={aehertz}
                 alt="cust1"
               />
             </div>
