@@ -46,6 +46,18 @@ function Customer() {
             </p>
             <p>Read more reviews on G2</p>
           </div>
+          <div className="cust-data">
+            <div className="cust-img-wrapper">
+              <img
+                src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/6614d263ee7cfefd56f2a4e7_Ioana%20Vasicuta%20Conde%20Nast.png"
+                alt="cust1"
+              />
+            </div>
+            <div className="cust-name">
+              <p className="firstname">Ioana</p>
+              <p>Vasicuta</p>
+            </div>
+          </div>
         </div>
         <div className="cards card2">
           <div className="title">
@@ -74,6 +86,18 @@ function Customer() {
               coming from.
             </p>
             <p>Read more reviews on G2</p>
+          </div>
+          <div className="cust-data">
+            <div className="cust-img-wrapper">
+              <img
+                src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/6614d263ee7cfefd56f2a4e7_Ioana%20Vasicuta%20Conde%20Nast.png"
+                alt="cust1"
+              />
+            </div>
+            <div className="cust-name">
+              <p className="firstname">Siddharth G</p>
+              <p>Singh</p>
+            </div>
           </div>
         </div>
         <div className="cards card3">
@@ -104,8 +128,19 @@ function Customer() {
             </p>
             <p>Read more reviews on G2</p>
           </div>
+          <div className="cust-data">
+            <div className="cust-img-wrapper">
+              <img
+                src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/6614d263ee7cfefd56f2a4e7_Ioana%20Vasicuta%20Conde%20Nast.png"
+                alt="cust1"
+              />
+            </div>
+            <div className="cust-name">
+              <p className="firstname">Abhinandan</p>
+              <p>AE-HERTZ</p>
+            </div>
+          </div>
         </div>
-      
       </div>
     </div>
   );
