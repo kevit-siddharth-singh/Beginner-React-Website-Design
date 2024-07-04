@@ -43,8 +43,8 @@ function Customer() {
           </div>
           <div className="cards-data">
             <p>
-              Avo has been a tremendous help for us. For a company as big as
-              ours, we need Avo to help us standardize all of our data across a
+              SID-Dev has been a tremendous help for us. For a company as big as
+              ours, we need SID-Dev to help us standardize all of our data across a
               lot of platforms, brands, and markets, no matter where it is
               coming from.
             </p>
@@ -84,8 +84,8 @@ function Customer() {
           </div>
           <div className="cards-data">
             <p>
-              Avo has been a tremendous help for us. For a company as big as
-              ours, we need Avo to help us standardize all of our data across a
+              SID-Dev has been a tremendous help for us. For a company as big as
+              ours, we need SID-Dev to help us standardize all of our data across a
               lot of platforms, brands, and markets, no matter where it is
               coming from.
             </p>
@@ -125,8 +125,8 @@ function Customer() {
           </div>
           <div className="cards-data">
             <p>
-              Avo has been a tremendous help for us. For a company as big as
-              ours, we need Avo to help us standardize all of our data across a
+              SID-Dev has been a tremendous help for us. For a company as big as
+              ours, we need SID-Dev to help us standardize all of our data across a
               lot of platforms, brands, and markets, no matter where it is
               coming from.
             </p>
