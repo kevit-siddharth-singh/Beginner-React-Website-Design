@@ -30,7 +30,7 @@
 .title-text::first-line {
   font-family: Inter;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 .cust-btn {
   width: 55%;
@@ -46,12 +46,18 @@
   padding: 0.4rem 1.5rem;
   border-radius: 30px;
   font-size: 1.4rem;
+  transition: 0.3s ease-in-out;
 }
 .cust-btn button img {
   width: 30px;
 }
 .cust-btn button:hover {
+  color: white;
+  transform: scale(1.05);
   background-color: #9e9da3;
+  -webkit-box-shadow:0px 0px 115px 26px rgba(158,157,163,0.5);
+-moz-box-shadow: 0px 0px 115px 26px rgba(158,157,163,0.5);
+box-shadow: 0px 0px 115px 26px rgba(158,157,163,0.5);
 }
 .cust-card {
   display: flex;
@@ -71,10 +77,10 @@
   overflow-x: hidden;
   transition: 0.5s ease-out;
 }
-.cards:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 0px 50px 1px #ff0eb4;
-    cursor: pointer;    
+.cards:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 50px 1px #ff0eb4;
+  cursor: pointer;
 }
 .title {
   display: flex;
@@ -103,7 +109,6 @@
 }
 
 .cust-img-wrapper img {
-  
   border: 2px solid #ff0eb4;
   transition: 1s ease-in-out;
   cursor: pointer;
@@ -131,6 +136,7 @@
 .cust-data:hover .firstname {
   color: #ff0eb4;
 }
+.cust-data:hover .transientX{
+  color: #ff0eb4 ;
 
-
-
+}

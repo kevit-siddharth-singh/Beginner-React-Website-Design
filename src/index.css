@@ -35,15 +35,18 @@ code {
   gap: 50vh;
   display: flex;
   flex-direction: column;
+  background-color: #181A1B;
+  color: white;
 }
 
 .main-wrapper{
-  /* background-color: blueviolet; */
+  background-color: #181A1B;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   flex-direction: column;
+  
 
 }
 

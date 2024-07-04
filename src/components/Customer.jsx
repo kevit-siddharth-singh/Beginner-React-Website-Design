@@ -78,7 +78,7 @@ function Customer() {
               ></path>
             </svg>
             <img
-              src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/6614d2b8bf7ea0b8033d40bb_conde-nast-logo-black%201.svg"
+              src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/65bce3e7a69ba4fc631f3912_culture-amp-light.svg" 
               alt=""
             />
           </div>
@@ -100,7 +100,7 @@ function Customer() {
             </div>
             <div className="cust-name">
               <p className="firstname">Siddharth</p>
-              <p>Transient X</p>
+              <p>Transient <span className="transientX">X</span></p>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ function Customer() {
               ></path>
             </svg>
             <img
-              src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/6614d2b8bf7ea0b8033d40bb_conde-nast-logo-black%201.svg"
+              src="https://cdn.prod.website-files.com/65b671b80c07b825f14b65c6/65bce3e7a69ba4fc631f3912_culture-amp-light.svg"
               alt=""
             />
           </div>
